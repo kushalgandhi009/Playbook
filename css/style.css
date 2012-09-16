@@ -1,0 +1,92 @@
+@charset "utf-8"; /* CSS Document */
+body {
+	background-image: url(../images/bg.jpg);
+	color: #1C493E;
+	width: 100%;
+	font-size: 20px;
+	margin: 0;
+	border: 2px #25725f;
+}
+
+.head {
+	background-image: url(../images/bg-top.jpg);
+	padding: 5px;
+}
+
+#MainContent {
+	margin: 0 10% 0 10%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #25725f;
+}
+
+#images img {
+	margin: 5px;
+	cursor: pointer;
+}
+
+.on-off {
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+table {
+	text-align: center;
+	background-color: rgba(27,90,84,0.2);
+}
+
+img {
+	border: none;
+}
+
+.right {
+	float: right;
+	margin-right: 25px;
+}
+
+.title {
+	margin-top: 50px;
+}
+
+img.item {
+	background-color: rgba(27,90,84,0.5);
+	cursor: auto !important;
+}
+
+img.item:hover {
+	background-color: rgba(27,90,84,0.8);
+
+	-webkit-transform: scale(1.10);
+	-moz-transform: scale(1.10);
+	-o-transform: scale(1.10);
+	-ms-transform: scale(1.10);
+	transform: scale(1.10);
+	position: relative;
+	z-index: 3;
+}
+
+img.category {
+	background-color: rgba(27,90,84,0.5);
+	cursor: pointer !important;
+}
+
+img.category:hover {
+	background-color: rgba(27,90,84,0.8);
+
+	-webkit-transform: scale(1.10);
+	-moz-transform: scale(1.10);
+	-o-transform: scale(1.10);
+	-ms-transform: scale(1.10);
+	transform: scale(1.10);
+	position: relative;
+	z-index: 3;
+}
+
+.fly {
+	float: right;
+	z-index: 5;
+	height: 100px;
+	width: 100px;
+	margin: 0;
+}
